@@ -71,7 +71,9 @@ App = {
       }).then(function(hasVoted) {
       // Do not allow a user to vote
       if(hasVoted) {
+        
         alert("User are not allowed to vote more than once!");
+
 
         $('#formVote').hide();
 
@@ -79,7 +81,9 @@ App = {
 
       //hide add candidate form for all accounts available in ganache except accounts 1 and 2
       if(App.account!==App.firstAccount.toLowerCase() && App.account!==App.secondAccount.toLowerCase()){
+          
           $("#formAddCandidate").hide();
+
       }
       loader.hide();
       content.show();

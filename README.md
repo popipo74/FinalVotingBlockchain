@@ -7,6 +7,14 @@
 3. Metamask(create or connect to blockchain wallet)
 4. Infura(using infura API to connect to Infura blockchain network.
 
+## Directory Structure
+
+* contracts/ — Folder holding all of the Contracts. DO NOT DELETE Migrations.sol
+* migrations/ — Folder holding Migration files, which help you deploy your smart contracts into the Blockchain.
+* src/ — holds the HTML/CSS and Javascript files for the application
+* truffle.js — Truffle Configuration file
+* build/ — You won’t see this folder until you compile your contracts. This folder holds the build artifacts so don’t modify any of these files! Build artifacts describe the function and architecture of your contract and give Truffle Contracts and web3 information on how to interact with your Smart Contract in the Blockchain.
+
 ### Step untuk deploy smart contract blockchain
 
 1. mkdir 'project name'
